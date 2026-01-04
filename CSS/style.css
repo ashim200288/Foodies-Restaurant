@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: hsl(0, 0%, 96%);
+}
+
+header {
+    background: #d35400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card span {
+    font-size: 18px;
+    color: #d35400;
+    font-weight: bold;
+}
+
+.card button {
+    background: #d35400;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background: #b84300;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.time-box{
+    background: whitesmoke;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 40px 10px rgba(0,0,0,0.15);
+}
+.time-box h2{
+    color:#d35400;
+    margin-bottom: 10px;
+}
+.time-box p{
+    margin:5px 0;
+    font-size: 16px;
+}
+.payment{
+    background: #fff;
+    padding: 20px;
+    margin: 30px;
+    width: 80%;
+    border-radius: 1-px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.payment h2{
+    color:#d35400;
+    margin-bottom: 20px;
+}
+.payment-methods{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.method{
+     background: #fff;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.method img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pay-btn {
+    display: inline-block;
+    background: #d35400;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background: #b84300;
+}
